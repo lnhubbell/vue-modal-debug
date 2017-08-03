@@ -1,0 +1,30 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "description": "My app",
+  "dependencies": {
+    "sweet-modal-vue": "^1.1.2",
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "ajv": "^5.2.2",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-0": "*",
+    "babel-preset-stage-2": "*",
+    "babel-runtime": "^6.25.0",
+    "css-loader": "^0.28.4",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "^0.18.2",
+    "vue-hot-reload-api": "^2.1.0",
+    "vue-html-loader": "*",
+    "vue-loader": "*",
+    "vue-style-loader": "*",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "*"
+  },
+  "author": "You"
+}

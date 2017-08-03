@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue Example</title>
+  </head>
+  <body>
+    <div id="myapp">
+        <app></app>
+        <h3>{{ message }}</h3>
+        <div ref="modal" icon="success">
+            This is a success!!
+        </div>
+        Accurate
+        <button v-on:click="openModal()">Modal</button>
+    </div>
+  </body>
+  <script src="dist/build.js"></script>
+</html>
