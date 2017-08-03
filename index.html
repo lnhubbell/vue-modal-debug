@@ -6,13 +6,12 @@
   </head>
   <body>
     <div id="myapp">
-        <app></app>
         <h3>{{ message }}</h3>
-        <div ref="modal" icon="success">
-            This is a success!!
-        </div>
+        <modal name="hello-world">
+          hello, world!
+        </modal>
         Accurate
-        <button v-on:click="openModal()">Modal</button>
+        <button v-on:click="show()">Modal</button>
     </div>
   </body>
   <script src="dist/build.js"></script>
